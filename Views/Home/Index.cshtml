@@ -1,0 +1,74 @@
+﻿<html>
+<head>
+    <title>Libreria</title>
+    <link rel="stylesheet" href="css/site.css"/>
+</head>
+
+
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<section class="container-principal">
+    <div class="page-header">
+        <div>
+            <h1>Panel de Administración</h1>
+            <p class="text-muted mb-0">Sistema de gestión de la librería</p>
+        </div>
+        <small class="text-muted">@DateTime.Now.ToString("dddd, dd MMMM yyyy", new System.Globalization.CultureInfo("es-CO"))</small>
+    </div>
+
+    <div class="row g-3 mb-4">
+        <div class="col-md-4">
+            <div class="stat-card" >
+                <div class="label">Usuarios registrados</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="stat-card" >
+                <div class="label">Libros en catálogo</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="stat-card">
+                <div class="label">Préstamos activos</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body text-center p-4">
+                    <div style="font-size:2.5rem">👤</div>
+                    <h5 class="mt-2">Usuarios</h5>
+                    <p class="text-muted small">Registrar, editar y eliminar usuarios del sistema</p>
+                    <a asp-controller="Usuario" asp-action="Index" class="btn btn-primary btn-sm">Ver - Registrar Usuario</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body text-center p-4">
+                    <div style="font-size:2.5rem">📖</div>
+                    <h5 class="mt-4">Libros</h5>
+                    <p class="text-muted small">Administrar el catálogo de libros disponibles</p>
+                    <a asp-controller="Libro" asp-action="Index" class="btn btn-primary btn-sm">Ver - Registrar Libro</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body text-center p-4">
+                    <div style="font-size:2.5rem">🔄</div>
+                    <h5 class="mt-4">Préstamos</h5>
+                    <p class="text-muted small">Registrar y hacer seguimiento de préstamos</p>
+                    <a asp-controller="Prestamo" asp-action="Index" class="btn btn-primary btn-sm">Registrar Prestamo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+</html>

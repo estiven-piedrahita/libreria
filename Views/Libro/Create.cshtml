@@ -1,0 +1,43 @@
+@model libreria.Models.Libro
+@{
+    ViewData["Title"] = "Nuevo libro";
+}
+
+<div class="page-header">
+    <div>
+        <h1>Nuevo libro</h1>
+        <p class="text-muted mb-0">Completa los datos para agregar un libro al catálogo</p>
+    </div>
+    <a asp-action="Index" class="btn btn-outline-secondary">← Volver</a>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body p-4">
+                <form asp-action="Create" asp-controller="Libro" method="post">
+                    <div class="mb-3">
+                        <label asp-for="Titulo" class="form-label">Título</label>
+                        <input asp-for="Titulo" class="form-control" placeholder="Ej: Cien años de soledad" />
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Autor" class="form-label">Autor</label>
+                        <input asp-for="Autor" class="form-control" placeholder="Ej: Gabriel García Márquez" />
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Stock" class="form-label">Stock disponible</label>
+                        <input asp-for="Stock" class="form-control" type="number" min="0" placeholder="0" />
+                    </div>
+                    <div class="mb-4">
+                        <label asp-for="FechaRegistro" class="form-label">Fecha de registro</label>
+                        <input asp-for="FechaRegistro" class="form-control" type="date" />
+                    </div>
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary">Guardar libro</button>
+                        <a asp-action="Index" class="btn btn-outline-secondary">Cancelar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

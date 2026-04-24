@@ -1,0 +1,52 @@
+@model libreria.Models.Prestamo
+@{
+    ViewData["Title"] = "Nuevo préstamo";
+}
+
+<div class="page-header">
+    <div>
+        <h1>Nuevo préstamo</h1>
+        <p class="text-muted mb-0">Registra un préstamo de libro</p>
+    </div>
+    <a asp-action="Index" class="btn btn-outline-secondary">← Volver</a>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body p-4">
+                <form asp-action="Create" asp-controller="Prestamo" method="post">
+                    <div class="mb-3">
+                        <label asp-for="UsuarioId" class="form-label">Usuario</label>
+                        <select asp-for="UsuarioId" asp-items="ViewBag.Usuarios" class="form-select">
+                            <option value="">-- Seleccionar usuario --</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="LibroId" class="form-label">Libro</label>
+                        <select asp-for="LibroId" asp-items="ViewBag.Libros" class="form-select">
+                            <option value="">-- Seleccionar libro --</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="FechaPrestamo" class="form-label">Fecha de préstamo</label>
+                        <input asp-for="FechaPrestamo" class="form-control" type="date" />
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="FechaDevolucion" class="form-label">Fecha estimada de devolución <span class="text-muted">(opcional)</span></label>
+                        <input asp-for="FechaDevolucion" class="form-control" type="date" />
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input asp-for="Devuelto" class="form-check-input" type="checkbox" />
+                        <label asp-for="Devuelto" class="form-check-label">Ya fue devuelto</label>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary">Registrar préstamo</button>
+                        <a asp-action="Index" class="btn btn-outline-secondary">Cancelar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

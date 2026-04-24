@@ -1,0 +1,55 @@
+@model libreria.Models.Prestamo
+@{
+    ViewData["Title"] = "Editar préstamo";
+}
+
+<div class="page-header">
+    <div>
+        <h1>Editar préstamo</h1>
+        <p class="text-muted mb-0">Modifica los datos del préstamo #@Model.Id</p>
+    </div>
+    <a asp-action="Index" class="btn btn-outline-secondary">← Volver</a>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body p-4">
+                <form asp-action="Edit" method="post">
+                    <input asp-for="Id" type="hidden" />
+                    <div class="mb-3">
+                        <label asp-for="UsuarioId" class="form-label">Usuario</label>
+                        <select asp-for="UsuarioId" asp-items="ViewBag.Usuarios" class="form-select">
+                            <option value="">-- Seleccionar usuario --</option>
+                        </select>
+                        <span asp-validation-for="UsuarioId" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="LibroId" class="form-label">Libro</label>
+                        <select asp-for="LibroId" asp-items="ViewBag.Libros" class="form-select">
+                            <option value="">-- Seleccionar libro --</option>
+                        </select>
+                        <span asp-validation-for="LibroId" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="FechaPrestamo" class="form-label">Fecha de préstamo</label>
+                        <input asp-for="FechaPrestamo" class="form-control" type="date" />
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="FechaDevolucion" class="form-label">Fecha de devolución</label>
+                        <input asp-for="FechaDevolucion" class="form-control" type="date" />
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input asp-for="Devuelto" class="form-check-input" type="checkbox" />
+                        <label asp-for="Devuelto" class="form-check-label">Devuelto</label>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary">Actualizar</button>
+                        <a asp-action="Index" class="btn btn-outline-secondary">Cancelar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

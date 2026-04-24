@@ -1,0 +1,69 @@
+@model IEnumerable<libreria.Models.Libro>
+@{
+    ViewData["Title"] = "Libros";
+}
+
+<div class="page-header">
+    <div>
+        <h1>Libros</h1>
+        <p class="text-muted mb-0">Catálogo de libros disponibles</p>
+    </div>
+    <a asp-action="Create" class="btn btn-primary">+ Nuevo libro</a>
+</div>
+
+<div class="card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <span class="fw-semibold">Listado de libros</span>
+        <span class="text-muted small">@Model.Count() registros</span>
+    </div>
+    <div class="card-body p-0">
+        @if (!Model.Any())
+        {
+            <div class="text-center py-5 text-muted">
+                <div style="font-size:3rem">📖</div>
+                <p>No hay libros en el catálogo.</p>
+                <a asp-action="Create" class="btn btn-primary btn-sm">Agregar el primero</a>
+            </div>
+        }
+        else
+        {
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>#</th>
+                        <th>Título</th>
+                        <th>Autor</th>
+                        <th>Stock</th>
+                        <th>Fecha registro</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var libro in Model)
+                    {
+                        <tr>
+                            <td class="text-muted">@libro.Id</td>
+                            <td class="fw-medium">@libro.Titulo</td>
+                            <td>@libro.Autor</td>
+                            <td>
+                                @if (libro.Stock > 0)
+                                {
+                                    <span class="badge-active">@libro.Stock disponibles</span>
+                                }
+                                else
+                                {
+                                    <span class="badge-inactive">Sin stock</span>
+                                }
+                            </td>
+                            <td class="text-muted small">@libro.FechaRegistro.ToString("dd/MM/yyyy")</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@libro.Id" class="btn btn-outline-secondary btn-action me-1">Editar</a>
+                                <a asp-action="Delete" asp-route-id="@libro.Id" class="btn btn-outline-danger btn-action">Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>

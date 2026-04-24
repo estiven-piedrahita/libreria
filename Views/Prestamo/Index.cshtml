@@ -1,0 +1,74 @@
+@model IEnumerable<libreria.Models.Prestamo>
+@{
+    ViewData["Title"] = "Préstamos";
+}   
+
+<div class="page-header">
+    <div>
+        <h1>Préstamos</h1>
+        <p class="text-muted mb-0">Historial y gestión de préstamos</p>
+    </div>
+    <a asp-action="Create" class="btn btn-primary">+ Nuevo préstamo</a>
+</div>
+
+<div class="card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <span class="fw-semibold">Listado de préstamos</span>
+        <span class="text-muted small">@Model.Count() registros</span>
+    </div>
+<div class="card-body p-0">
+
+        @if (!Model.Any())
+        {
+            <div class="text-center py-5 text-muted">
+                <div style="font-size:3rem">🔄</div>
+                <p>No hay préstamos registrados.</p>
+                <a asp-action="Create" class="btn btn-primary btn-sm">Registrar el primero</a>
+            </div>
+        }
+        else
+        {
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>#</th>
+                        <th>Usuario</th>
+                        <th>Libro</th>
+                        <th>Fecha préstamo</th>
+                        <th>Fecha devolución</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var prestamo in Model)
+                    {
+                        <tr>
+                            <td class="text-muted">@prestamo.Id</td>
+                            <td class="fw-medium">@prestamo.Usuario.Nombre</td>
+                            <td>@prestamo.Libro?.Titulo</td>
+                            <td class="text-muted small">@prestamo.FechaPrestamo.ToString("dd/MM/yyyy")</td>
+                            <td class="text-muted small">
+                                @(prestamo.FechaDevolucion.HasValue ? prestamo.FechaDevolucion.Value.ToString("dd/MM/yyyy") : "—")
+                            </td>
+                            <td>
+                                @if (prestamo.Devuelto)
+                                {
+                                    <span class="badge-active">Devuelto</span>
+                                }
+                                else
+                                {
+                                    <span class="badge-inactive">Activo</span>
+                                }
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@prestamo.Id" class="btn btn-outline-secondary btn-action me-1">Editar</a>
+                                <a asp-action="Delete" asp-route-id="@prestamo.Id" class="btn btn-outline-danger btn-action">Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
