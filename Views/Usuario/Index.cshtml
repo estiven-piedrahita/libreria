@@ -19,7 +19,7 @@
     <div class="card-body p-0">
         @if (!Model.Any())
         {
-            <div class="text-center py-5 text-muted">
+            <div class="text-center py-5 text-muted empty-state">
                 <div style="font-size:3rem">👤</div>
                 <p>No hay usuarios registrados aún.</p>
                 <a asp-action="Create" class="btn btn-primary btn-sm">Agregar el primero</a>
@@ -27,7 +27,11 @@
         }
         else
         {
-            <table class="table table-hover mb-0">
+            <div class="table-toolbar">
+                <input class="form-control" type="search" data-table-search="#tablaUsuarios" placeholder="Buscar por nombre, correo o fecha" />
+            </div>
+            <div class="table-responsive">
+            <table id="tablaUsuarios" class="table table-hover mb-0">
                 <thead class="table-light">
                     <tr>
                         <th>#</th>
@@ -53,6 +57,7 @@
                     }
                 </tbody>
             </table>
+            </div>
         }
     </div>
 </div>

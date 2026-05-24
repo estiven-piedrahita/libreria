@@ -16,6 +16,7 @@
         <div class="card">
             <div class="card-body p-4">
                 <form asp-action="Edit" method="post">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
                     <input asp-for="Id" type="hidden" />
                     <div class="mb-3">
                         <label asp-for="UsuarioId" class="form-label">Usuario</label>
@@ -53,3 +54,6 @@
     </div>
 </div>
 
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

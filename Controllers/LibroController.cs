@@ -55,15 +55,15 @@ public class LibroController : Controller
     {
         var resultado = _libroService.ObtenerId(id);
         if (!resultado.Success) return NotFound();
-        return View(resultado.Data);
+        return View(resultado.Data!);
     }
 
-    [HttpPost]
+    [HttpPost, ActionName("Delete")]
     public IActionResult DeleteConfirmed(int id)
     {
         var resultado = _libroService.ObtenerId(id);
         if (resultado.Success)
-            _libroService.EliminarLibro(resultado.Data);
+            _libroService.EliminarLibro(resultado.Data!);
 
         TempData["Mensaje"] = "Libro eliminado correctamente";
         return RedirectToAction("Index");

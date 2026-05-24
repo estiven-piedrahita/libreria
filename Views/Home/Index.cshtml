@@ -1,10 +1,4 @@
-﻿<html>
-<head>
-    <title>Libreria</title>
-    <link rel="stylesheet" href="css/site.css"/>
-</head>
-
-
+﻿@model libreria.ViewModels.HomeDashboardViewModel
 @{
     ViewData["Title"] = "Inicio";
 }
@@ -20,18 +14,24 @@
 
     <div class="row g-3 mb-4">
         <div class="col-md-4">
-            <div class="stat-card" >
+            <div class="stat-card">
                 <div class="label">Usuarios registrados</div>
+                <strong>@Model.TotalUsuarios</strong>
+                <span>Lectores activos en el sistema</span>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="stat-card" >
+            <div class="stat-card">
                 <div class="label">Libros en catálogo</div>
+                <strong>@Model.TotalLibros</strong>
+                <span>@Model.LibrosSinStock sin stock disponible</span>
             </div>
         </div>
         <div class="col-md-4">
             <div class="stat-card">
                 <div class="label">Préstamos activos</div>
+                <strong>@Model.PrestamosActivos</strong>
+                <span>@Model.PrestamosDevueltos préstamos devueltos</span>
             </div>
         </div>
     </div>
@@ -40,35 +40,33 @@
         <div class="col-md-4">
             <div class="card h-100">
                 <div class="card-body text-center p-4">
-                    <div style="font-size:2.5rem">👤</div>
+                    <div class="feature-icon">US</div>
                     <h5 class="mt-2">Usuarios</h5>
                     <p class="text-muted small">Registrar, editar y eliminar usuarios del sistema</p>
-                    <a asp-controller="Usuario" asp-action="Index" class="btn btn-primary btn-sm">Ver - Registrar Usuario</a>
+                    <a asp-controller="Usuario" asp-action="Index" class="btn btn-primary btn-sm">Gestionar usuarios</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card h-100">
                 <div class="card-body text-center p-4">
-                    <div style="font-size:2.5rem">📖</div>
-                    <h5 class="mt-4">Libros</h5>
+                    <div class="feature-icon">LB</div>
+                    <h5 class="mt-2">Libros</h5>
                     <p class="text-muted small">Administrar el catálogo de libros disponibles</p>
-                    <a asp-controller="Libro" asp-action="Index" class="btn btn-primary btn-sm">Ver - Registrar Libro</a>
+                    <a asp-controller="Libro" asp-action="Index" class="btn btn-primary btn-sm">Gestionar libros</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card h-100">
                 <div class="card-body text-center p-4">
-                    <div style="font-size:2.5rem">🔄</div>
-                    <h5 class="mt-4">Préstamos</h5>
+                    <div class="feature-icon">PR</div>
+                    <h5 class="mt-2">Préstamos</h5>
                     <p class="text-muted small">Registrar y hacer seguimiento de préstamos</p>
-                    <a asp-controller="Prestamo" asp-action="Index" class="btn btn-primary btn-sm">Registrar Prestamo</a>
+                    <a asp-controller="Prestamo" asp-action="Index" class="btn btn-primary btn-sm">Gestionar préstamos</a>
                 </div>
             </div>
         </div>
     </div>
 
 </section>
-
-</html>

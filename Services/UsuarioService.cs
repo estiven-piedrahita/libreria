@@ -17,7 +17,9 @@ public class UsuarioService
     // metodo obtener read
     public ServiceResponse<IEnumerable<Usuario>> ObtenerUsuarios()
     {
-        var users = _appDb.Usuarios.ToList();
+        var users = _appDb.Usuarios
+            .OrderBy(u => u.Nombre)
+            .ToList();
         return new ServiceResponse<IEnumerable<Usuario>>()
         {
             Success = true,
@@ -73,6 +75,9 @@ public class UsuarioService
     public ServiceResponse<Usuario> actualizarUsuario(Usuario usuario)
     {
         var nuevoUsuario = _appDb.Usuarios.Find(usuario.Id);
+        if (nuevoUsuario == null)
+            return new ServiceResponse<Usuario> { Success = false, Message = "Usuario no encontrado" };
+
         nuevoUsuario.Nombre = usuario.Nombre;
         nuevoUsuario.Email = usuario.Email;
         nuevoUsuario.FechaRegistro = usuario.FechaRegistro;
@@ -90,6 +95,8 @@ public class UsuarioService
     public ServiceResponse<Usuario> eliminarUsuario(Usuario usuario)
     {
         var usuarioDb = _appDb.Usuarios.Find(usuario.Id);
+        if (usuarioDb == null)
+            return new ServiceResponse<Usuario> { Success = false, Message = "Usuario no encontrado" };
 
         _appDb.Usuarios.Remove(usuarioDb);
         _appDb.SaveChanges();

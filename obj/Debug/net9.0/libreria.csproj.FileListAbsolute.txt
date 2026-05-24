@@ -1,0 +1,395 @@
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/appsettings.Development.json
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/appsettings.json
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/libreria.staticwebassets.runtime.json
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/libreria.staticwebassets.endpoints.json
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/libreria.exe
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/libreria.deps.json
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/libreria.runtimeconfig.json
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/libreria.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/libreria.pdb
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Humanizer.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Mono.TextTemplating.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/MySqlConnector.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/Pomelo.EntityFrameworkCore.MySql.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/System.CodeDom.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/System.Composition.Convention.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/System.Composition.Hosting.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/System.Composition.Runtime.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/System.Composition.TypedParts.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/System.Text.Json.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.csproj.AssemblyReference.cache
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/rpswa.dswa.cache.json
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.AssemblyInfoInputs.cache
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.AssemblyInfo.cs
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.csproj.CoreCompileInputs.cache
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.RazorAssemblyInfo.cache
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.RazorAssemblyInfo.cs
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.sourcelink.json
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/rjimswa.dswa.cache.json
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/scopedcss/bundle/libreria.styles.css
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/scopedcss/projectbundle/libreria.bundle.scp.css
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/py32i8yeyj-{0}-bfzjg63wbh-bfzjg63wbh.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/nnkt1gtr7o-{0}-61n19gt1b8-61n19gt1b8.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/7tkrtk245n-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/wnnbng8jr4-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/8izoqff8jf-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/oqd0tz91ai-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/77abdk07sb-{0}-aexeepp0ev-aexeepp0ev.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/6mjcoeopad-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/ns66r9tmy9-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/f414yqkob0-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/jwa6ccdo7u-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/lk2doe3pxx-{0}-ub07r2b239-ub07r2b239.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/37xcr8zino-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/7ezgqn7puz-{0}-b7pk76d08c-b7pk76d08c.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/74josvavlt-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/66ti8hnft0-{0}-rzd6atqjts-rzd6atqjts.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/r00nfeve3l-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/20d1nzvwf8-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/8uk4col8zl-{0}-jd9uben2k1-jd9uben2k1.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/c129qhxhjk-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/f3v8sbjgqo-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/k7ovqcn3nf-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/qpusofrx08-{0}-c2oey78nd0-c2oey78nd0.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/mxy0nkamv6-{0}-tdbxkamptv-tdbxkamptv.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/em39u6i86e-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/f9lwa74ysu-{0}-06098lyss8-06098lyss8.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/p0rg8hotiz-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/1rbt6j2efb-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/ornw0nnzwu-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/680yn7r5od-{0}-46ein0sx1k-46ein0sx1k.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/6o3tswufhp-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/m47mcxqz35-{0}-37tfw0ft22-37tfw0ft22.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/280s9hgws4-{0}-hrwsygsryq-hrwsygsryq.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/bsmk5mrh7s-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/jza5ylglpr-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/w8h6uem76r-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/2wvghcnyd5-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/unl4mxp357-{0}-493y06b0oq-493y06b0oq.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/6dng7v2czo-{0}-iovd86k7lj-iovd86k7lj.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/ipqxkd3vk1-{0}-vr1egmr9el-vr1egmr9el.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/ks19j9jkyx-{0}-kbrnm935zg-kbrnm935zg.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/4kplasuwre-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/rt18ir5foa-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/9cr4qhrxtj-{0}-notf2xhcfb-notf2xhcfb.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/ff8asn1sdc-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/btzak4tcxb-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/9ykbrbovgt-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/ng219oa77u-{0}-47otxtyo56-47otxtyo56.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/ugviihjpn3-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/fwv9duhj64-{0}-356vix0kms-356vix0kms.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/cl0apz1oig-{0}-83jwlth58m-83jwlth58m.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/fbj0wd9ozl-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/42qirjeusb-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/gc56qghwao-{0}-ag7o75518u-ag7o75518u.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/09h8zc82k7-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/yndynovzps-{0}-0i3buxo5is-0i3buxo5is.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/6xckk035dr-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/tfiuppxhvy-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/tqd89yr834-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/cif52jw5tu-{0}-muycvpuwrr-muycvpuwrr.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/8i99l20ol3-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/6cthc8r40d-{0}-mlv21k5csn-mlv21k5csn.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/rc4elovigi-{0}-5pjbd3gi0x-5pjbd3gi0x.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/compressed/cuyvtnabhc-{0}-5pjbd3gi0x-5pjbd3gi0x.gz
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/staticwebassets.build.json
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/staticwebassets.build.json.cache
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/staticwebassets.development.json
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/swae.build.ex.cache
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.csproj.Up2Date
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.dll
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/refint/libreria.dll
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.pdb
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/libreria.genruntimeconfig.cache
+C:/Users/HP/Desktop/libreria/obj/Debug/net9.0/ref/libreria.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/appsettings.Development.json
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/appsettings.json
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/libreria.staticwebassets.runtime.json
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/libreria.staticwebassets.endpoints.json
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/libreria
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/libreria.deps.json
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/libreria.runtimeconfig.json
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/libreria.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/libreria.pdb
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Humanizer.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Mono.TextTemplating.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/MySqlConnector.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/System.CodeDom.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/System.Composition.Convention.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/System.Composition.Hosting.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/System.Composition.Runtime.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.csproj.AssemblyReference.cache
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/rpswa.dswa.cache.json
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.GeneratedMSBuildEditorConfig.editorconfig
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.AssemblyInfoInputs.cache
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.AssemblyInfo.cs
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.csproj.CoreCompileInputs.cache
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.MvcApplicationPartsAssemblyInfo.cache
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.RazorAssemblyInfo.cache
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.RazorAssemblyInfo.cs
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.sourcelink.json
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/scopedcss/bundle/libreria.styles.css
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/scopedcss/projectbundle/libreria.bundle.scp.css
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/py32i8yeyj-{0}-xbss4q934m-xbss4q934m.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/nnkt1gtr7o-{0}-61n19gt1b8-61n19gt1b8.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/7tkrtk245n-{0}-2yvrapljlt-2yvrapljlt.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/wnnbng8jr4-{0}-bqjiyaj88i-bqjiyaj88i.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/8izoqff8jf-{0}-c2jlpeoesf-c2jlpeoesf.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/oqd0tz91ai-{0}-erw9l3u2r3-erw9l3u2r3.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/77abdk07sb-{0}-aexeepp0ev-aexeepp0ev.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/6mjcoeopad-{0}-d7shbmvgxk-d7shbmvgxk.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/ns66r9tmy9-{0}-ausgxo2sd3-ausgxo2sd3.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/f414yqkob0-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/jwa6ccdo7u-{0}-cosvhxvwiu-cosvhxvwiu.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/lk2doe3pxx-{0}-ub07r2b239-ub07r2b239.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/37xcr8zino-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/7ezgqn7puz-{0}-b7pk76d08c-b7pk76d08c.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/74josvavlt-{0}-fsbi9cje9m-fsbi9cje9m.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/66ti8hnft0-{0}-rzd6atqjts-rzd6atqjts.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/r00nfeve3l-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/20d1nzvwf8-{0}-dxx9fxp4il-dxx9fxp4il.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/8uk4col8zl-{0}-jd9uben2k1-jd9uben2k1.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/c129qhxhjk-{0}-khv3u5hwcm-khv3u5hwcm.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/f3v8sbjgqo-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/k7ovqcn3nf-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/qpusofrx08-{0}-c2oey78nd0-c2oey78nd0.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/mxy0nkamv6-{0}-tdbxkamptv-tdbxkamptv.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/em39u6i86e-{0}-j5mq2jizvt-j5mq2jizvt.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/f9lwa74ysu-{0}-06098lyss8-06098lyss8.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/p0rg8hotiz-{0}-nvvlpmu67g-nvvlpmu67g.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/1rbt6j2efb-{0}-s35ty4nyc5-s35ty4nyc5.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/ornw0nnzwu-{0}-pj5nd1wqec-pj5nd1wqec.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/680yn7r5od-{0}-46ein0sx1k-46ein0sx1k.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/6o3tswufhp-{0}-v0zj4ognzu-v0zj4ognzu.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/m47mcxqz35-{0}-37tfw0ft22-37tfw0ft22.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/280s9hgws4-{0}-hrwsygsryq-hrwsygsryq.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/bsmk5mrh7s-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/jza5ylglpr-{0}-ft3s53vfgj-ft3s53vfgj.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/w8h6uem76r-{0}-6cfz1n2cew-6cfz1n2cew.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/2wvghcnyd5-{0}-6pdc2jztkx-6pdc2jztkx.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/unl4mxp357-{0}-493y06b0oq-493y06b0oq.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/6dng7v2czo-{0}-iovd86k7lj-iovd86k7lj.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/ipqxkd3vk1-{0}-vr1egmr9el-vr1egmr9el.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/ks19j9jkyx-{0}-kbrnm935zg-kbrnm935zg.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/4kplasuwre-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/rt18ir5foa-{0}-y7v9cxd14o-y7v9cxd14o.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/9cr4qhrxtj-{0}-notf2xhcfb-notf2xhcfb.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/ff8asn1sdc-{0}-h1s4sie4z3-h1s4sie4z3.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/btzak4tcxb-{0}-63fj8s7r0e-63fj8s7r0e.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/9ykbrbovgt-{0}-0j3bgjxly4-0j3bgjxly4.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/ng219oa77u-{0}-47otxtyo56-47otxtyo56.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/ugviihjpn3-{0}-4v8eqarkd7-4v8eqarkd7.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/fwv9duhj64-{0}-356vix0kms-356vix0kms.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/cl0apz1oig-{0}-83jwlth58m-83jwlth58m.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/fbj0wd9ozl-{0}-mrlpezrjn3-mrlpezrjn3.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/42qirjeusb-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/gc56qghwao-{0}-ag7o75518u-ag7o75518u.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/09h8zc82k7-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/yndynovzps-{0}-0i3buxo5is-0i3buxo5is.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/6xckk035dr-{0}-o1o13a6vjx-o1o13a6vjx.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/tfiuppxhvy-{0}-ttgo8qnofa-ttgo8qnofa.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/tqd89yr834-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/cif52jw5tu-{0}-muycvpuwrr-muycvpuwrr.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/8i99l20ol3-{0}-87fc7y1x7t-87fc7y1x7t.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/6cthc8r40d-{0}-mlv21k5csn-mlv21k5csn.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/rc4elovigi-{0}-xa584ubig4-xa584ubig4.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/compressed/cuyvtnabhc-{0}-xa584ubig4-xa584ubig4.gz
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/staticwebassets.build.json
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/staticwebassets.build.json.cache
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/staticwebassets.development.json
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/swae.build.ex.cache
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.csproj.Up2Date
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.dll
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/refint/libreria.dll
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.pdb
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/libreria.genruntimeconfig.cache
+/home/duvan/escritorio windows/libreria/obj/Debug/net9.0/ref/libreria.dll
