@@ -19,12 +19,28 @@
             var prestamos = _appDb.Prestamos
                 .Include(p => p.Usuario)
                 .Include(p => p.Libro)
+                .OrderByDescending(p => p.FechaPrestamo)
                 .ToList();
             return new ServiceResponse<IEnumerable<Prestamo>> { Success = true, Data = prestamos };
         }
 
         public ServiceResponse<Prestamo> AgregarPrestamo(Prestamo prestamo)
         {
+            var libro = _appDb.Libros.Find(prestamo.LibroId);
+            if (libro == null)
+                return new ServiceResponse<Prestamo> { Data = prestamo, Success = false, Message = "El libro seleccionado no existe" };
+
+            if (!prestamo.Devuelto)
+            {
+                if (libro.Stock <= 0)
+                    return new ServiceResponse<Prestamo> { Data = prestamo, Success = false, Message = "No hay stock disponible para este libro" };
+
+                libro.Stock--;
+            }
+
+            if (prestamo.Devuelto && prestamo.FechaDevolucion == null)
+                prestamo.FechaDevolucion = DateTime.Now;
+
             _appDb.Prestamos.Add(prestamo);
             var resultado = _appDb.SaveChanges();
 
@@ -49,13 +65,39 @@
 
         public ServiceResponse<Prestamo> ActualizarPrestamo(Prestamo prestamo)
         {
-            var prestamoDb = _appDb.Prestamos.Find(prestamo.Id);
+            var prestamoDb = _appDb.Prestamos
+                .Include(p => p.Libro)
+                .FirstOrDefault(p => p.Id == prestamo.Id);
             if (prestamoDb == null)
                 return new ServiceResponse<Prestamo> { Success = false, Message = "Préstamo no encontrado" };
 
+            var libroNuevo = _appDb.Libros.Find(prestamo.LibroId);
+            if (libroNuevo == null)
+                return new ServiceResponse<Prestamo> { Success = false, Message = "El libro seleccionado no existe" };
+
+            var estabaActivo = !prestamoDb.Devuelto;
+            var quedaraActivo = !prestamo.Devuelto;
+
+            if (estabaActivo)
+            {
+                var libroAnterior = _appDb.Libros.Find(prestamoDb.LibroId);
+                if (libroAnterior != null)
+                    libroAnterior.Stock++;
+            }
+
+            if (quedaraActivo)
+            {
+                if (libroNuevo.Stock <= 0)
+                    return new ServiceResponse<Prestamo> { Success = false, Message = "No hay stock disponible para este libro" };
+
+                libroNuevo.Stock--;
+            }
+
             prestamoDb.FechaPrestamo = prestamo.FechaPrestamo;
-            prestamoDb.FechaDevolucion = prestamo.FechaDevolucion;
             prestamoDb.Devuelto = prestamo.Devuelto;
+            prestamoDb.FechaDevolucion = prestamo.Devuelto && prestamo.FechaDevolucion == null
+                ? DateTime.Now
+                : prestamo.FechaDevolucion;
             prestamoDb.UsuarioId = prestamo.UsuarioId;
             prestamoDb.LibroId = prestamo.LibroId;
             _appDb.SaveChanges();
@@ -68,6 +110,13 @@
             var prestamoDb = _appDb.Prestamos.Find(prestamo.Id);
             if (prestamoDb == null)
                 return new ServiceResponse<Prestamo> { Success = false, Message = "Préstamo no encontrado" };
+
+            if (!prestamoDb.Devuelto)
+            {
+                var libro = _appDb.Libros.Find(prestamoDb.LibroId);
+                if (libro != null)
+                    libro.Stock++;
+            }
 
             _appDb.Prestamos.Remove(prestamoDb);
             _appDb.SaveChanges();

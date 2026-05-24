@@ -15,7 +15,9 @@ public class LibroService
 
     public ServiceResponse<IEnumerable<Libro>> ObtenerLibros()
     {
-        var libros = _appDb.Libros.ToList();
+        var libros = _appDb.Libros
+            .OrderBy(l => l.Titulo)
+            .ToList();
         return new ServiceResponse<IEnumerable<Libro>>
         {
             Success = true,

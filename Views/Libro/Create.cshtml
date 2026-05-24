@@ -19,14 +19,17 @@
                     <div class="mb-3">
                         <label asp-for="Titulo" class="form-label">Título</label>
                         <input asp-for="Titulo" class="form-control" placeholder="Ej: Cien años de soledad" />
+                        <span asp-validation-for="Titulo" class="text-danger small"></span>
                     </div>
                     <div class="mb-3">
                         <label asp-for="Autor" class="form-label">Autor</label>
                         <input asp-for="Autor" class="form-control" placeholder="Ej: Gabriel García Márquez" />
+                        <span asp-validation-for="Autor" class="text-danger small"></span>
                     </div>
                     <div class="mb-3">
                         <label asp-for="Stock" class="form-label">Stock disponible</label>
                         <input asp-for="Stock" class="form-control" type="number" min="0" placeholder="0" />
+                        <span asp-validation-for="Stock" class="text-danger small"></span>
                     </div>
                     <div class="mb-4">
                         <label asp-for="FechaRegistro" class="form-label">Fecha de registro</label>
@@ -41,3 +44,7 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

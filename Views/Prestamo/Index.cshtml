@@ -16,11 +16,11 @@
         <span class="fw-semibold">Listado de préstamos</span>
         <span class="text-muted small">@Model.Count() registros</span>
     </div>
-<div class="card-body p-0">
+    <div class="card-body p-0">
 
         @if (!Model.Any())
         {
-            <div class="text-center py-5 text-muted">
+            <div class="text-center py-5 text-muted empty-state">
                 <div style="font-size:3rem">🔄</div>
                 <p>No hay préstamos registrados.</p>
                 <a asp-action="Create" class="btn btn-primary btn-sm">Registrar el primero</a>
@@ -28,7 +28,11 @@
         }
         else
         {
-            <table class="table table-hover mb-0">
+            <div class="table-toolbar">
+                <input class="form-control" type="search" data-table-search="#tablaPrestamos" placeholder="Buscar por usuario, libro, fecha o estado" />
+            </div>
+            <div class="table-responsive">
+            <table id="tablaPrestamos" class="table table-hover mb-0">
                 <thead class="table-light">
                     <tr>
                         <th>#</th>
@@ -45,8 +49,8 @@
                     {
                         <tr>
                             <td class="text-muted">@prestamo.Id</td>
-                            <td class="fw-medium">@prestamo.Usuario.Nombre</td>
-                            <td>@prestamo.Libro?.Titulo</td>
+                            <td class="fw-medium">@(prestamo.Usuario?.Nombre ?? "Sin usuario")</td>
+                            <td>@(prestamo.Libro?.Titulo ?? "Sin libro")</td>
                             <td class="text-muted small">@prestamo.FechaPrestamo.ToString("dd/MM/yyyy")</td>
                             <td class="text-muted small">
                                 @(prestamo.FechaDevolucion.HasValue ? prestamo.FechaDevolucion.Value.ToString("dd/MM/yyyy") : "—")
@@ -69,6 +73,7 @@
                     }
                 </tbody>
             </table>
+            </div>
         }
     </div>
 </div>

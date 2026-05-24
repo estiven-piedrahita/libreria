@@ -55,7 +55,7 @@ public class UsuarioController : Controller
     {
         var resultado = _usuarioService.ObtenerId(id);
         if (!resultado.Success) return NotFound();
-        return View(resultado.Data);
+        return View(resultado.Data!);
     }
 
     [HttpPost, ActionName("Delete")]

@@ -21,7 +21,7 @@ public class PrestamoController : Controller
     public IActionResult Index()
     {
         var resultado = _prestamoService.ObtenerPrestamos();
-        return View(resultado.Data);
+        return View(resultado.Data ?? Enumerable.Empty<Prestamo>());
     }
 
     public IActionResult Create()
@@ -33,10 +33,24 @@ public class PrestamoController : Controller
     [HttpPost]
     public IActionResult Create(Prestamo prestamo)
     {
-        
+        ModelState.Remove(nameof(Prestamo.Usuario));
+        ModelState.Remove(nameof(Prestamo.Libro));
 
-        _prestamoService.AgregarPrestamo(prestamo);
-        TempData["Mensaje"] = "Préstamo registrado correctamente";
+        if (!ModelState.IsValid)
+        {
+            CargarDropdowns(prestamo.LibroId);
+            return View(prestamo);
+        }
+
+        var resultado = _prestamoService.AgregarPrestamo(prestamo);
+        if (!resultado.Success)
+        {
+            ModelState.AddModelError(string.Empty, resultado.Message);
+            CargarDropdowns(prestamo.LibroId);
+            return View(prestamo);
+        }
+
+        TempData["Mensaje"] = resultado.Message;
         return RedirectToAction("Index");
     }
 
@@ -44,17 +58,31 @@ public class PrestamoController : Controller
     {
         var resultado = _prestamoService.ObtenerId(id);
         if (!resultado.Success) return NotFound();
-        CargarDropdowns();
+        CargarDropdowns(resultado.Data!.LibroId);
         return View(resultado.Data);
     }
 
     [HttpPost]
     public IActionResult Edit(Prestamo prestamo)
     {
-       
+        ModelState.Remove(nameof(Prestamo.Usuario));
+        ModelState.Remove(nameof(Prestamo.Libro));
 
-        _prestamoService.ActualizarPrestamo(prestamo);
-        TempData["Mensaje"] = "Préstamo actualizado correctamente";
+        if (!ModelState.IsValid)
+        {
+            CargarDropdowns(prestamo.LibroId);
+            return View(prestamo);
+        }
+
+        var resultado = _prestamoService.ActualizarPrestamo(prestamo);
+        if (!resultado.Success)
+        {
+            ModelState.AddModelError(string.Empty, resultado.Message);
+            CargarDropdowns(prestamo.LibroId);
+            return View(prestamo);
+        }
+
+        TempData["Mensaje"] = resultado.Message;
         return RedirectToAction("Index");
     }
 
@@ -62,23 +90,32 @@ public class PrestamoController : Controller
     {
         var resultado = _prestamoService.ObtenerId(id);
         if (!resultado.Success) return NotFound();
-        return View(resultado.Data);
+        return View(resultado.Data!);
     }
 
-    [HttpPost]
+    [HttpPost, ActionName("Delete")]
     public IActionResult DeleteConfirmed(int id)
     {
         var resultado = _prestamoService.ObtenerId(id);
         if (resultado.Success)
-            _prestamoService.EliminarPrestamo(resultado.Data);
+            _prestamoService.EliminarPrestamo(resultado.Data!);
 
         TempData["Mensaje"] = "Préstamo eliminado correctamente";
         return RedirectToAction("Index");
     }
 
-    private void CargarDropdowns()
+    private void CargarDropdowns(int? libroSeleccionado = null)
     {
-        ViewBag.Usuarios = new SelectList(_usuarioService.ObtenerUsuarios().Data, "Id", "Nombre");
-        ViewBag.Libros = new SelectList(_libroService.ObtenerLibros().Data, "Id", "Titulo");
+        var usuarios = _usuarioService.ObtenerUsuarios().Data ?? Enumerable.Empty<Usuario>();
+        var libros = (_libroService.ObtenerLibros().Data ?? Enumerable.Empty<Libro>())
+            .Where(l => l.Stock > 0 || l.Id == libroSeleccionado)
+            .Select(l => new
+            {
+                l.Id,
+                Titulo = $"{l.Titulo} - {l.Autor} ({l.Stock} disponibles)"
+            });
+
+        ViewBag.Usuarios = new SelectList(usuarios, "Id", "Nombre");
+        ViewBag.Libros = new SelectList(libros, "Id", "Titulo");
     }
 }
