@@ -23,4 +23,4 @@ COPY --from=build /out .
 EXPOSE 8080
 
 # Comando de inicio
-lENTRYPOINT ["dotnet", "libreria.dll"]
+ENTRYPOINT ["dotnet", "libreria.dll"]
